@@ -1,5 +1,5 @@
 export const Header = () =>{
     return(
-        <h1>Header</h1>
+         <div style={{ textAlign: "right", padding: "1rem" }}>Username</div>
     )
 }
