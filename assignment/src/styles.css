@@ -19,6 +19,8 @@ body {
     align-content: center;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   }
+
+  /* utils */
   .common-flex {
     display: flex;
     flex-direction: row;
@@ -43,11 +45,8 @@ body {
   .pd-sm {
     padding: 0.5rem;
   }
-  .options {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+
+  /* sidebar-container */
   .sidebar-container {
     background-color: var(--primary-clr);
     margin: 0px;
@@ -60,6 +59,11 @@ body {
     position: sticky;
     top: 0;
     text-align: left;
+  }
+  .options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   .subheading-container {
     padding: 1rem;

@@ -10,6 +10,13 @@
     border-radius: 5px;
     padding: 0.4rem;
   }
+  .submit-btn:hover{
+    color:var(--white-text-clr); 
+    border: 1px solid var(--primary-clr);
+    background-color: var(--primary-clr);
+    cursor: pointer;
+  }
+
 
   .product-card {
     margin: 1rem;
