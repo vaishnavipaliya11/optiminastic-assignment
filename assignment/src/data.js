@@ -162,77 +162,9 @@ const hotelData = [
     icon:
       "https://yt3.ggpht.com/ytc/AKedOLTt5lEuVyTDCc4TpQW6NYiEOuiCmXSNDRdQ9zORpA=s48-c-k-c0x00ffffff-no-rj"
   },
-  {
-    id: uuid(),
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh303dX5sG_k0WcYcvNM2ARau0hSbT1h6Arg&usqp=CAU",
-    price: 14000,
-    type: "flats",
-    room: "3BHK",
-    rating: 4,
-    location: "Mumbai,Maharashtra"
-  },
 
-  {
-    id: uuid(),
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2nC--OC9PuojKz8Lur0h6tyd-dAHWUtjIA&usqp=CAU",
-    price: 11000,
-    type: "flats",
-    room: "3BHK",
-    rating: 4,
-    location: "Mumbai,Maharashtra"
-  },
-  {
-    id: uuid(),
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3WwhiYJQZPJWPtvWTtTMeBGGpLrk83IZG6w&usqp=CAU",
-    price: 12000,
-    type: "yurt",
-    room: "3BHK",
-    rating: 2,
-    location: "Mumbai,Maharashtra"
-  },
 
-  {
-    id: uuid(),
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpHQwYuxYGz4_7G7PzseUiLaASnUJ22b-hLQ&usqp=CAU",
-    price: 8000,
-    type: "flats",
-    room: "2BHK",
-    rating: 4,
-    location: "Pune,Maharashatra"
-  },
-  {
-    id: uuid(),
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX02Q1x8nsxCMe9Qc9a7fMb6ZxEScmUNAtvw&usqp=CAU",
-    price: 10000,
-    type: "yurt",
-    room: "3BHK",
-    rating: 5,
-    location: "Nagpur,Maharashtra"
-  },
-  {
-    id: uuid(),
-    img: "https://i.ytimg.com/vi/-Pf2A9ZPTn0/maxresdefault.jpg",
-    price: 8000,
-    type: "wooden",
-    room: "1BHK",
-    rating: 2,
-    location: "Nagpur,Maharashtra"
-  },
-  {
-    id: uuid(),
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlh6gNMTeIh7j8oCw0C_OhMlgHTCzHaOh1tg&usqp=CAU",
-    price: 14000,
-    type: "yurt",
-    room: "2BHK",
-    rating: 3,
-    location: "Nagpur,Maharashtra"
-  },
+
   {
     id: uuid(),
     img:
