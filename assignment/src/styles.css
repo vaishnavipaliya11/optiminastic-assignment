@@ -1,6 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    --primary-clr: #9333ea;
+    --text-clr: #64748b;
+    --white-text-clr: #e2e8f0;
+  }
+  .App {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 0px;
+  }
 .product-listing-container {
     display: grid;
     justify-items: center;
     align-content: center;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
+  .common-flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .common-flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .spc-around {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .space-bet {
+    justify-content: space-between;
+  }
+  .space-eve {
+    justify-content: space-evenly;
+  }
+  li {
+    list-style-type: none;
+  }
+  .pd-sm {
+    padding: 0.5rem;
+  }
+  .options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .sidebar-container {
+    background-color: var(--primary-clr);
+    margin: 0px;
+    justify-content: space-between;
+    color: var(--white-text-clr);
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+    position: sticky;
+    top: 0;
+    text-align: left;
+  }
+  .subheading-container {
+    padding: 1rem;
+  }
+  .subheading-container input {
+    padding: 0.2rem;
+    border-radius: 5px;
+  }
+  .sidebar-container button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: var(--white-text-clr);
   }

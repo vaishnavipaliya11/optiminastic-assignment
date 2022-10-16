@@ -1,3 +1,4 @@
+import "../styles.css"
 import { MdPlaylistAdd, MdOutlineAirplaneTicket } from "react-icons/md";
 import {
   AiOutlineMenu,
