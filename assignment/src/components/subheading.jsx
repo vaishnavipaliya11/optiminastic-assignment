@@ -2,7 +2,7 @@ export const SubHeading = () =>{
     return(
         <div className="subheading-container common-flex spc-around">
         <p>
-          <span>My projects</span>
+          <span style={{"color":"#9333ea"}}>My projects</span>
           <span>Explore</span>
         </p>
   

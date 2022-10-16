@@ -1,5 +1,9 @@
+import {
+    AiOutlineUserAdd
+  } from "react-icons/ai";
+  import "../styles.css"
 export const Header = () =>{
     return(
-         <div style={{ textAlign: "right", padding: "1rem" }}>Username</div>
+         <div className="common-flex header-container"><AiOutlineUserAdd/> Optimistic </div>
     )
 }
